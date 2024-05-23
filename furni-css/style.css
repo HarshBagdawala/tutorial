@@ -629,7 +629,7 @@
 }
 
 .lows-tac {
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .depot1 {
@@ -1316,6 +1316,7 @@ img.vert-move {
         height: auto;
     }
     .customer-1 {
+
         display: contents !important;
     }
 }

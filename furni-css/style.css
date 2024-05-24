@@ -1490,8 +1490,8 @@ img.vert-move {
 }
 
 .subcri-btn:hover {
-    background: linear-gradient(to right, #ffffff 0%, #f7af74 100%);
-    color: black;
+    background-color: white;
+    color: #FB923C;
     border: 1px solid #FB923C;
     transform: scale(1.0);
 }

@@ -71,10 +71,6 @@
     animation: slideInFromRight 0.9s forwards;
     height: 100%;
     width: 250px;
-
-
-    /* Adjust timing and animation style as needed */
-    /* This will make the navbar slide in from the right */
 }
 
 .navbar-toggler {
@@ -220,10 +216,22 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
     padding-bottom: 10px;
     border-bottom: 2px solid lightgray;
 }
-
+.media-icon {
+    display: flex;
+    gap: 10px;
+}
+.online-feb a {
+    color: #000; /* Set icon color to black */
+    font-size: 21px; /* Change this to the size you want */
+    text-decoration: none;
+}
+.online-feb a:hover {
+    color: rgb(26, 26, 210);
+}
 @media (max-width: 375.98px) {
     .contect-fast {
         top: 80%;
@@ -422,6 +430,8 @@
     width: 100%;
     height: auto;
     margin: 15px 0px;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 39px;
 }
 
 .offers-bat {
@@ -666,6 +676,7 @@
     padding: 10px;
     border-radius: 15px;
     margin-top: 10px;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .dining-tab {

@@ -30,7 +30,7 @@
 }
 
 .nav-link {
-    font-weight: 400;
+    font-weight: 500;
     transition: all 0.3s ease;
     color: rgb(220, 220, 220);
 }
@@ -180,7 +180,7 @@
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #e2e2e2;
     border-radius: 15px;
 }
 
@@ -228,9 +228,11 @@
     color: #000; /* Set icon color to black */
     font-size: 21px; /* Change this to the size you want */
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 .online-feb a:hover {
     color: rgb(26, 26, 210);
+    transform: scale(1.0);
 }
 @media (max-width: 375.98px) {
     .contect-fast {
@@ -311,11 +313,6 @@
 
 .call-img p {
     margin-bottom: 0;
-}
-
-.media-icon {
-    display: flex;
-    gap: 13px;
 }
 
 @media (max-width: 575.98px) {
@@ -443,22 +440,27 @@
     border: white;
     background-color: white;
     color: gray;
+    border-radius: 20px;
     padding: 5px 15px 5px 15px;
     border: 1px solid white;
+    transition: all 0.3s ease;
 }
 
 .play-now {
     border: white;
     background-color: white;
     color: gray;
+    border-radius: 20px;
     padding: 5px 15px 5px 15px;
     border: 1px solid white;
+    transition: all 0.3s ease;
 }
 
 .ofer-sow:hover {
     border: 1px solid black;
     border-radius: 20px;
     color: black;
+    transform: scale(1.0);
 }
 
 .ofer-sow:focus {
@@ -469,6 +471,7 @@
     border: 1px solid black;
     border-radius: 20px;
     color: black;
+    transform: scale(1.0);
 }
 
 .play-now:focus {
@@ -690,13 +693,6 @@
     padding: 5px 10px 5px 10px;
     font-weight: 600;
 }
-
-/* @media (max-width: 991.98px) {
-    .shov-prod{
-        font-size: small;
-        padding: 5px;
-    }
-} */
 .dinig-img {
     width: 100%;
     height: auto;
@@ -827,12 +823,13 @@
     cursor: pointer;
     border: 2px solid white;
     border-radius: 20px;
+    transition: all 0.3s ease;
 }
 
 .gallry-chnge:hover {
     border: 2px solid gray;
     border-radius: 20px;
-
+    transform: scale(1.0);
 }
 
 .gallry-chnge:focus {
@@ -861,14 +858,6 @@
         padding: 5px 7px;
     }
 }
-
-/* @media (max-width: 427.98px) {
-    .gallry-section {
-        display: flex;
-        gap: 7px;
-        flex-wrap: wrap;
-    }
-} */
 .material {
     display: flex;
     gap: 10px;
@@ -876,7 +865,6 @@
     align-items: center;
     margin-top: 40px;
 }
-
 @media (max-width: 767.98px) {
     .material {
         display: block;
@@ -1026,12 +1014,6 @@ img.vert-move {
         transform: translateY(-10px);
     }
 }
-
-/* .content-one{
-    position: relative;
-    top: 50%;
-    left: 0;
-} */
 .elevate-move {
     width: 80%;
     height: auto;
@@ -1415,6 +1397,7 @@ img.vert-move {
     padding: 10px;
     border-radius: 6px;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
 .next{
     background-color: black;
@@ -1423,17 +1406,21 @@ img.vert-move {
     font-size: large;
     padding: 10px;
     border-radius: 6px;
-    border: 2px solid black
+    border: 2px solid black;
+    transition: all 0.3s ease;
 }
 .next:hover{
     background-color: white;
     color: black;
-    border: 2px solid black ;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+
 }
 .prev:hover{
     background-color: white;
     color: black;
-    border: 2px solid black ;
+    border: 2px solid black;
+    transition: all 0.3s ease;
 }
 .purchase {
     flex: 0 0 auto;

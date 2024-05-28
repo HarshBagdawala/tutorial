@@ -410,7 +410,7 @@
     font-size: 50px;
     font-weight: 650;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 2px 2px 3px gray;
+    text-shadow: 1px 1px 2px gray;
 }
 
 .furni-explo p {
@@ -427,7 +427,7 @@
     width: 100%;
     height: auto;
     margin: 15px 0px;
-    box-shadow: 2px 2px 3px gray;
+    box-shadow: 4px 4px 5px gray;
     border-radius: 39px;
 }
 

@@ -224,14 +224,56 @@
     display: flex;
     gap: 10px;
 }
-.online-feb a {
+.online-feb-ins a {
     color: #000; /* Set icon color to black */
     font-size: 21px; /* Change this to the size you want */
     text-decoration: none;
     transition: all 0.3s ease;
+    padding: 0px 3px;
+    border-radius: 5px;
 }
-.online-feb a:hover {
-    color: rgb(26, 26, 210);
+.online-feb-ins a:hover {
+    color: white;
+    background: linear-gradient(to right, rgb(255, 0, 0),rgb(200, 70, 255), rgb(240, 8, 81), rgb(255, 230, 0));
+    transform: scale(1.0);
+}
+.online-feb-face a {
+    color: #000; /* Set icon color to black */
+    font-size: 21px; /* Change this to the size you want */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.online-feb-face a:hover {
+    color: white;
+    background-color: rgb(72, 67, 219);
+    transform: scale(1.0);
+}
+.online-feb-tiwi a {
+    color: #000; /* Set icon color to black */
+    font-size: 21px; /* Change this to the size you want */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.online-feb-tiwi a:hover {
+    color: white;
+    background-color: rgb(9, 164, 236);
+    transform: scale(1.0);
+}
+.online-feb-linked a {
+    color: #000; /* Set icon color to black */
+    font-size: 21px; /* Change this to the size you want */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.online-feb-linked a:hover {
+    color: white;
+    background-color: rgb(72, 67, 219);
     transform: scale(1.0);
 }
 @media (max-width: 375.98px) {

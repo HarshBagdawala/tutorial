@@ -879,10 +879,10 @@
     outline: 0px auto -webkit-focus-ring-color;
 }
 
-.gallry-chnge.active {
+/* .gallry-chnge.active {
     border: 2px solid black;
     border-radius: 20px;
-}
+} */
 
 .gallry-section {
     margin: 10px 0px;

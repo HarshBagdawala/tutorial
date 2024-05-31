@@ -234,7 +234,7 @@
 }
 .online-feb-ins a:hover {
     color: white;
-    background: linear-gradient(to right, rgb(255, 0, 0),rgb(200, 70, 255), rgb(240, 8, 81), rgb(255, 230, 0));
+    background: linear-gradient(to right, rgb(200, 70, 255), rgb(255, 0, 0), rgb(240, 8, 81), rgb(255, 230, 0));
     transform: scale(1.0);
 }
 .online-feb-face a {
@@ -1106,7 +1106,6 @@ img.vert-move {
         height: auto;
     }
 }
-
 @media (max-width: 767.98px) {
     .onaer-web {
         width: 75%;
@@ -1119,20 +1118,17 @@ img.vert-move {
         height: auto;
     }
 }
-
 @media (max-width: 575.98px) {
     .elevate-move {
         width: 85%;
         height: auto;
     }
-
     .onaer-web {
         width: 58%;
         padding: 5px 8px;
         border-radius: 13px;
     }
 }
-
 @media (max-width: 330.98px) {
     .onaer-web {
         width: 63%;
@@ -1140,21 +1136,17 @@ img.vert-move {
         border-radius: 13px;
     }
 }
-
 .oner-name {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
 .oner-formed p {
     font-weight: 700;
 }
-
 .oner-formed span {
     color: gray;
 }
-
 .unicon-icon {
     border-radius: 15px;
     background-color: white;
@@ -1168,7 +1160,6 @@ img.vert-move {
     left: 45%;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
-
 @media (max-width: 1199.98px) {
     .unicon-icon {
         padding: 10px;
@@ -1177,7 +1168,6 @@ img.vert-move {
         font-size: small;
     }
 }
-
 @media (max-width: 991.98px) {
     .unicon-icon {
         top: 81%;
@@ -1186,20 +1176,17 @@ img.vert-move {
         width: 58%;
         border-radius: 10px;
     }
-
     .rigtred-icon {
         height: 20px;
         width: 20px;
     }
 }
-
 @media (max-width: 767.98px) {
     .unicon-icon {
         top: 80%;
         left: 42%;
     }
 }
-
 @media (max-width: 575.98px) {
     .unicon-icon {
         top: 92%;
@@ -1207,7 +1194,6 @@ img.vert-move {
         width: 55%;
     }
 }
-
 @media (max-width: 320.98px) {
     .unicon-icon {
         top: 83%;
@@ -1215,13 +1201,11 @@ img.vert-move {
         width: 55%;
     }
 }
-
 .satisfaction {
     background-color: black;
     color: white;
     padding: 30px 15px;
 }
-
 .reating-star {
     display: flex;
     gap: 40px;
@@ -1246,24 +1230,19 @@ img.vert-move {
         padding: 30px 10px;
     }
 }
-
 .dedication-fur h1 {
     margin-bottom: 20px;
 }
-
 .provid-abot p {
     margin-bottom: 20px;
 }
-
 .quality-fur p {
     margin-bottom: 0;
 }
-
 .serv-inform {
     display: flex;
     gap: 10px;
 }
-
 .our-colle {
     border: none;
     color: red;
@@ -1273,12 +1252,10 @@ img.vert-move {
     margin-bottom: 15px;
     background-color: #f1f1f1;
 }
-
 .collect-btn h1 {
     font-family: "Rubik", sans-serif;
     margin-top: 10px;
 }
-
 .collect-btn p {
     color: gray;
 }
@@ -1306,49 +1283,41 @@ img.vert-move {
         opacity: 1;
     }
 }
-
 /* Apply animations to specific elements */
 .finesh-furni {
     animation: slideInFromLeft 1s ease-out forwards;
 }
-
 .oner-servi {
     animation: slideInFromRight 1s ease-out forwards;
 }
-
 .g-1 img {
     width: 100%;
     height: auto;
     margin-top: 25px;
 }
-
 .g-2 img {
     width: 100%;
     height: 255px;
     margin-top: 25px;
 }
-
 @media (max-width: 1199.98px) {
     .g-2 img {
         width: 100%;
         height: 210px;
     }
 }
-
 @media (max-width: 991.98px) {
     .g-2 img {
         width: 100%;
         height: 150px;
     }
 }
-
 @media (max-width: 767.98px) {
     .g-2 img {
         width: 100%;
         height: 105px;
     }
 }
-
 @media (max-width: 575.98px) {
     .g-2 img {
         width: 100%;
@@ -1358,12 +1327,10 @@ img.vert-move {
         display: contents !important;
     }
 }
-
 .recliner {
     background-color: #EDEDED;
     padding: 20px;
 }
-
 .test-section {
     border: none;
     border-radius: 15px;
@@ -1372,16 +1339,13 @@ img.vert-move {
     font-weight: 500;
     margin-bottom: 15px;
 }
-
 .customer-say h1 {
     font-family: "Rubik", sans-serif;
     margin-top: 10px;
 }
-
 .customer-say p {
     color: gray;
 }
-
 .customer-1 {
     display: flex;
     align-items: center;
@@ -1389,12 +1353,9 @@ img.vert-move {
     gap: 13px;
     margin: 20px 0px;
 }
-
 .d-coute {
     margin: 20px 0;
 }
-
-
 /* slider */
 .no-lie {
     font-family: Arial, sans-serif;
@@ -1403,7 +1364,6 @@ img.vert-move {
     align-items: center;
     margin: 0;
 }
-
 .slider {
     position: relative;
     width: 80%;
@@ -1411,17 +1371,14 @@ img.vert-move {
     height: auto;
     overflow: hidden;
 }
-
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
-
 .slide {
     min-width: 100%;
     box-sizing: border-box;
 }
-
 .slide img {
     width: auto;
     display: block;
@@ -1486,14 +1443,10 @@ img.vert-move {
         /* Allow slides to take full width */
     }
 }
-
-
-
 .impusg img {
     width: 100%;
     height: auto;
 }
-
 .offer-prod {
     display: flex;
     justify-content: space-around;
@@ -1515,7 +1468,6 @@ img.vert-move {
         padding: 15px;
     }
 }
-
 .subcrib {
     display: flex;
     align-items: center;
@@ -1525,7 +1477,6 @@ img.vert-move {
     padding: 10px;
     gap: 10px;
 }
-
 .subcri-btn {
     border: 1px solid #FB923C;
     background-color: #FB923C;
@@ -1533,30 +1484,24 @@ img.vert-move {
     padding: 5px 10px;
     transition: all 0.3s ease;
 }
-
 .subcri-btn:hover {
     background-color: white;
     color: #FB923C;
     border: 1px solid #FB923C;
     transform: scale(1.0);
 }
-
 .fut-logos {
     margin-bottom: 20px;
 }
-
 .fut-infirm {
     padding: 25px;
 }
-
 .furni-category {
     margin-bottom: 20px;
 }
-
 .furni-category a {
     color: black;
 }
-
 .furni-category p {
     margin: 0;
 }
@@ -1576,4 +1521,18 @@ img.vert-move {
 /* Apply fade-in animation to all footer elements */
 .fut-infirm .furni-category {
     animation: fadeIn 0.5s ease forwards;
+}
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.animate.active {
+    opacity: 1;
+    transform: translateY(0);
 }

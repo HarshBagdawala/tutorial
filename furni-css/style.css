@@ -820,6 +820,13 @@
 .content1 h5 {
     margin-top: 10px;
 }
+.shop-now-icon i {
+    font-size: 17px; 
+    color: #000; 
+    background-color: lightgray;
+    padding: 7px;
+    border-radius: 50%;
+}
 
 @media (max-width: 375.98px) {
     .content1 h5 {
@@ -832,7 +839,7 @@
         font-size: 14px;
     }
 
-    .shop-now-icon img {
+    .shop-now-icon i {
         height: 30px;
         object-fit: contain;
     }

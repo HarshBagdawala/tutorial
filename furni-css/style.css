@@ -309,14 +309,14 @@
 .call-img {
     display: flex;
     align-items: flex-end;
-    gap: 15px;
+    gap: 5px;
 }
 .call-img a {
     color: black;
 }
-.call-img img {
-    height: 22px;
-    width: 22px;
+.call-img i {
+    color: #FB923C;
+    font-size: 18px;
 }
 .call-img p {
     margin-bottom: 0;

@@ -911,12 +911,21 @@
     gap: 8px;
     margin-bottom: 8px;
 }
-
+.true-img i{
+    font-size: 27px;
+    color: #FB923C;
+}
 .inspec-ter {
     color: black;
     font-weight: 600;
 }
-
+.contact-oner i{
+    padding: 7px;
+    background-color: #FB923C;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+}
 .purchase-btn {
     border: none;
     background-color: black;
@@ -926,12 +935,10 @@
     font-weight: 600;
     margin-bottom: 15px;
 }
-
 .elevate-img {
     text-align: center;
     position: relative;
 }
-
 img.vert-move {
     -webkit-animation: mover 0.5s infinite alternate;
     animation: mover 0.5s infinite alternate;
@@ -939,70 +946,58 @@ img.vert-move {
     top: 33%;
     left: -91%;
 }
-
 @media (max-width: 1024.98px) {
     img.vert-move {
         top: 33%;
         left: -92%;
     }
-
     .vert-move {
         height: 40px;
         width: 40px;
     }
 }
-
 @media (max-width: 990.98px) {
     img.vert-move {
         top: -160px;
         left: -95%;
     }
-
     .vert-move {
         height: 40px;
         width: 40px;
     }
 }
-
 @media (max-width: 767.98px) {
     img.vert-move {
         top: -140px;
         left: -94%;
     }
-
     .vert-move {
         height: 35px;
         width: 35px;
     }
 }
-
 @media (max-width: 575.98px) {
     img.vert-move {
         top: 20px;
         left: -94%;
     }
-
     .vert-move {
         height: 30px;
         width: 30px;
     }
 }
-
 img.vert-move {
     -webkit-animation: mover 0.5s infinite alternate;
     animation: mover 0.5s infinite alternate;
 }
-
 @-webkit-keyframes mover {
     0% {
         transform: translateY(0);
     }
-
     100% {
         transform: translateY(-10px);
     }
 }
-
 @keyframes mover {
     0% {
         transform: translateY(0);
@@ -1016,7 +1011,6 @@ img.vert-move {
     width: 80%;
     height: auto;
 }
-
 .onaer-web {
     display: flex;
     align-items: center;
@@ -1102,6 +1096,10 @@ img.vert-move {
 }
 .oner-formed span {
     color: gray;
+}
+.unicon-icon i{
+    color: #fb5f3c;
+    font-size: large;
 }
 .unicon-icon {
     border-radius: 15px;

@@ -1,3 +1,6 @@
+/* body{
+    background-color: #f1f1f1;
+} */
 .nav-feix {
     position: sticky;
     top: 0;
@@ -209,8 +212,7 @@
 }
 .online-feb-ins a:hover {
     color: white;
-    box-shadow: 2px 2px 3px rgb(0, 0, 0);
-    background: linear-gradient(to right, rgb(200, 70, 255), rgb(255, 0, 0), rgb(240, 8, 81), rgb(255, 230, 0));
+    background: linear-gradient(to right, rgb(200, 70, 255), rgb(255, 0, 0), rgb(240, 8, 81), rgb(255, 234, 0));
     transform: scale(1.0);
 }
 .online-feb-face a {
@@ -223,8 +225,8 @@
 }
 .online-feb-face a:hover {
     color: white;
-    box-shadow: 2px 2px 3px rgb(0, 0, 0);
-    background-color: rgb(72, 67, 219);
+    /* background-color: rgb(72, 67, 219); */
+    background: linear-gradient(to right, rgb(72, 67, 219), rgb(23, 18, 163));
     transform: scale(1.0);
 }
 .online-feb-tiwi a {
@@ -237,8 +239,8 @@
 }
 .online-feb-tiwi a:hover {
     color: white;
-    box-shadow: 2px 2px 3px rgb(0, 0, 0);
-    background-color: rgb(9, 164, 236);
+    /* background-color: rgb(9, 164, 236); */
+    background: linear-gradient(to right, rgb(9, 164, 236), rgb(5, 119, 171));
     transform: scale(1.0);
 }
 .online-feb-linked a {
@@ -251,8 +253,8 @@
 }
 .online-feb-linked a:hover {
     color: white;
-    box-shadow: 2px 2px 3px rgb(0, 0, 0);
-    background-color: rgb(72, 67, 219);
+    /* background-color: rgb(72, 67, 219); */
+    background: linear-gradient(to right, rgb(72, 67, 219), rgb(27, 22, 167));
     transform: scale(1.0);
 }
 @media (max-width: 375.98px) {
@@ -747,13 +749,14 @@
 
 /* Apply animation to gallery images */
 .gallarey-image {
-    animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Optional: Add hover effect */
 .gallarey-image:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
+    
 }
 
 /* Content */
@@ -913,7 +916,7 @@
 }
 .true-img i{
     font-size: 27px;
-    color: #FB923C;
+    color: #fa7d16;
 }
 .inspec-ter {
     color: black;
@@ -921,19 +924,25 @@
 }
 .contact-oner i{
     padding: 7px;
-    background-color: #FB923C;
+    background-color: #fa7d16;
     color: white;
     border-radius: 50%;
     font-size: 15px;
 }
 .purchase-btn {
-    border: none;
+    border: 2px solid black;
     background-color: black;
     color: white;
     border-radius: 30px;
-    padding: 12px 35px;
+    padding: 10px 33px;
     font-weight: 600;
     margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+.purchase-btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.0);
 }
 .elevate-img {
     text-align: center;
@@ -1431,17 +1440,18 @@ img.vert-move {
     padding: 10px;
     gap: 10px;
 }
-.subcri-btn {
-    border: 1px solid #FB923C;
+.subcrib-btn {
+    border: 2px solid #FB923C;
     background-color: #FB923C;
     color: white;
     padding: 5px 10px;
     transition: all 0.3s ease;
+    font-weight: 500;
 }
-.subcri-btn:hover {
+.subcrib-btn:hover {
     background-color: white;
     color: #FB923C;
-    border: 1px solid #FB923C;
+    border: 2px solid #FB923C;
     transform: scale(1.0);
 }
 .fut-logos {

@@ -382,7 +382,6 @@
         opacity: 1;
     }
 }
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -409,13 +408,11 @@
 .furni-explo p {
     color: gray;
 }
-
 @media (max-width: 990.98px) {
     .harmony h1 {
         font-size: 40px;
     }
 }
-
 .ractage-1 img {
     width: 100%;
     height: auto;
@@ -423,12 +420,10 @@
     box-shadow: 4px 4px 5px gray;
     border-radius: 39px;
 }
-
 .offers-bat {
     display: flex;
     gap: 10px;
 }
-
 .ofer-sow {
     border: white;
     background-color: white;
@@ -438,7 +433,6 @@
     border: 1px solid white;
     transition: all 0.3s ease;
 }
-
 .play-now {
     border: white;
     background-color: white;
@@ -448,34 +442,28 @@
     border: 1px solid white;
     transition: all 0.3s ease;
 }
-
 .ofer-sow:hover {
     border: 1px solid black;
     border-radius: 20px;
     color: black;
     transform: scale(1.0);
 }
-
 .ofer-sow:focus {
     outline: 0px;
 }
-
 .play-now:hover {
     border: 1px solid black;
     border-radius: 20px;
     color: black;
     transform: scale(1.0);
 }
-
 .play-now:focus {
     outline: 0px;
 }
-
 .play-vid-op {
     height: 20px;
     width: 20px;
 }
-
 .services {
     max-width: 70%;
     background-color: white;
@@ -489,87 +477,69 @@
     gap: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
 }
-
 @media (max-width: 1198.98px) {
     .services {
         top: -12px;
     }
-
     .main-servi {
         gap: 11px !important;
     }
-
     .more-opc {
         padding: 5px !important;
     }
 }
-
 @media (max-width: 1024.98px) {
     .services {
         top: 0px;
         max-width: 100%;
     }
-
     .main-servi {
         gap: 60px !important;
-
     }
-
     .more-opc {
         padding: 5px !important;
     }
 }
-
 @media (max-width: 990.98px) {
     .services {
         max-width: 100%;
     }
-
     .main-servi {
         gap: 10px !important;
 
     }
 }
-
 @media (max-width: 767.98px) {
     .serv-name h6 {
         font-size: small;
     }
-
     .services {
         gap: 5px;
     }
-
     .main-servi {
         gap: 5px !important;
     }
 }
-
 @media (max-width: 575.98px) {
     .services {
         display: block;
         padding: 5px;
         border-radius: 20px;
     }
-
     .serv-name h6 {
         font-size: large;
     }
-
     .main-servi {
         margin-top: 10px;
     }
-
     .see-mor-btn {
         text-align: center;
         margin-top: 15px;
     }
-
     .serv-name {
         margin-top: 10px;
     }
 }
-
 .main-servi {
     max-width: 100%;
     display: flex;
@@ -577,36 +547,29 @@
     gap: 35px;
 
 }
-
 .see-mor-btn {
     text-align: center;
 }
-
 .pay-secure {
     display: flex;
 }
-
 .seating {
     display: flex;
     gap: 5px;
     align-items: center;
 }
-
 .seating img {
     height: 20px;
     width: 20px;
 }
-
 .seating span {
     font-size: small;
 }
-
 .more-opc {
     background-color: white;
     border-radius: 30px;
     padding: 5px 15px;
 }
-
 @media (max-width: 767.98px) {
     .more-opc {
         font-size: small;
@@ -614,7 +577,6 @@
         padding: 0;
     }
 }
-
 @media (max-width: 575.98px) {
     .more-opc {
         padding: 3px 15px !important;
@@ -622,48 +584,39 @@
         margin-bottom: 8px;
     }
 }
-
 .depot {
     display: flex;
     width: 100%;
     justify-content: space-around;
     color: gray;
 }
-
 .lows-tac {
     font-weight: 600;
 }
-
 .lows-tac {
     text-shadow: 1px 1px 1px black;
 }
-
 .depot1 {
     display: flex;
     width: 100%;
     justify-content: space-around;
     color: gray;
 }
-
 .scopns {
     display: flex;
 }
-
 @media (max-width: 767.98px) {
     .scopns {
         display: block;
         justify-content: space-between;
     }
-
     .depot {
         justify-content: space-between;
     }
-
     .depot1 {
         justify-content: space-between;
     }
 }
-
 .deater-prod {
     display: flex;
     align-items: center;
@@ -674,11 +627,9 @@
     margin-top: 10px;
     box-shadow: 2px 2px 4px gray;
 }
-
 .dining-tab {
     text-align: center;
 }
-
 .shov-prod {
     border: none;
     background-color: white;
@@ -690,18 +641,15 @@
     width: 100%;
     height: auto;
 }
-
 /* prothfolio */
 .myrow {
     margin: 10px -16px;
 }
-
 /* Add padding BETWEEN each column */
 .myrow,
 .myrow>.gallarey-image {
     padding: 8px;
 }
-
 /* Create three equal columns that floats next to each other */
 .gallarey-image {
     float: left;
@@ -709,62 +657,51 @@
     display: none;
     /* Hide all elements by default */
 }
-
 @media (max-width: 425.98px) {
-
     .myrow,
     .myrow>.gallarey-image {
         padding: 3px;
     }
 }
-
 @media (max-width: 767.98px) {
     .gallarey-image {
         float: left;
         width: 50%;
         display: none;
     }
-
     .content1 {
         padding: 0;
     }
 }
-
 /* Clear floats after rows */
 .myrow:after {
     content: "";
     display: table;
     clear: both;
 }
-
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
-
 /* Apply animation to gallery images */
 .gallarey-image {
     animation: fadeIn 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out;
 }
-
 /* Optional: Add hover effect */
 .gallarey-image:hover {
     transform: scale(1.05);
     
 }
-
 /* Content */
 .content1 {
     background-color: white;
     padding: 5px;
 }
-
 .content1 h5 {
     margin-top: 10px;
 }
@@ -775,46 +712,38 @@
     padding: 7px;
     border-radius: 50%;
 }
-
 @media (max-width: 375.98px) {
     .content1 h5 {
         font-size: 14px;
         margin-top: 5px;
     }
-
     .content1 p {
         font-weight: 700;
         font-size: 14px;
     }
-
     .shop-now-icon i {
         height: 30px;
         object-fit: contain;
     }
 }
-
 /* @media (max-width: 375.98px){
 
 } */
 .content1 p {
     font-weight: 700;
 }
-
 .disline-font {
     color: gray;
 }
-
 .febric-chair {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 /* The "show" class is added to the filtered elements */
 .show-all-work {
     display: block;
 }
-
 /* Style the buttons */
 .gallry-chnge {
     border: none;
@@ -826,35 +755,29 @@
     border-radius: 20px;
     transition: all 0.3s ease;
 }
-
 .gallry-chnge:hover {
     border: 2px solid gray;
     border-radius: 20px;
     transform: scale(1.0);
 }
-
 .gallry-chnge:focus {
     outline: 0px dotted;
     outline: 0px auto -webkit-focus-ring-color;
 }
-
 /* .gallry-chnge.active {
     border: 2px solid black;
     border-radius: 20px;
 } */
-
 .gallry-section {
     margin: 10px 0px;
     display: flex;
     gap: 10px;
     justify-content: flex-end;
 }
-
 @media (max-width: 405.98px) {
     .gallry-sectipn {
         gap: 5px;
     }
-
     .gallry-chnge {
         padding: 5px 7px;
     }
@@ -871,34 +794,27 @@
         display: block;
         justify-content: center;
     }
-
     .gallry-section {
         display: flex;
         justify-content: center;
     }
 }
-
 @media (max-width: 320.98px) {
     .gallry-section {
         gap: 5px;
     }
-
     .gallry-chnge.active {
         border-radius: 10px;
     }
-
     .gallry-chnge:hover {
         border-radius: 10px;
     }
-
 }
-
 .work-product h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     margin-top: 10px;
 }
-
 .sum-prod {
     border: none;
     border-radius: 20px;
@@ -907,7 +823,6 @@
     background-color: #f1f1f1;
     font-weight: 600;
 }
-
 .build-last {
     display: flex;
     align-items: center;

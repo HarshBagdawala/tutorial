@@ -1389,7 +1389,12 @@ img.vert-move {
 .furni-category p {
     margin: 0;
 }
-
+.copy-right{
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid gray;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;

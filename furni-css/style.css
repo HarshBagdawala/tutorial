@@ -212,7 +212,7 @@
 }
 .online-feb-ins a:hover {
     color: white;
-    background: linear-gradient(to right, rgb(200, 70, 255), rgb(255, 0, 0), rgb(240, 8, 81), rgb(255, 234, 0));
+    background: linear-gradient(to bottom, rgb(200, 70, 255), rgb(255, 0, 0), rgb(240, 8, 81), rgb(255, 234, 0));
     transform: scale(1.0);
 }
 .online-feb-face a {

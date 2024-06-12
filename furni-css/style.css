@@ -1114,6 +1114,10 @@ img.vert-move {
 .provid-abot p {
     margin-bottom: 20px;
 }
+.quality-fur i{
+    /* color: rgb(255, 183, 0); */
+    color: gold;
+}
 .quality-fur p {
     margin-bottom: 0;
 }
@@ -1226,7 +1230,7 @@ img.vert-move {
 }
 .customer-1 {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 13px;
     margin: 20px 0px;
@@ -1235,6 +1239,10 @@ img.vert-move {
     margin: 20px 0;
 }
 /* slider */
+
+.cus-name i{
+    color: rgb(255, 183, 0);
+}
 .no-lie {
     font-family: Arial, sans-serif;
     display: flex;
@@ -1390,7 +1398,7 @@ img.vert-move {
     margin: 0;
 }
 .copy-right{
-    padding: 20px 0px;
+    padding-top: 24px;
     text-align: center;
     width: 100%;
     border-top: 2px solid gray;

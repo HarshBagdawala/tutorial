@@ -212,7 +212,7 @@
 }
 .online-feb-ins a:hover {
     color: white;
-    background: linear-gradient(to bottom, rgb(200, 70, 255), rgb(255, 0, 0), rgb(240, 8, 81), rgb(255, 234, 0));
+    background: linear-gradient(to bottom, rgb(200, 70, 255), rgb(255, 30, 101), rgb(255, 0, 0), rgb(255, 234, 0));
     transform: scale(1.0);
 }
 .online-feb-face a {
@@ -226,7 +226,7 @@
 .online-feb-face a:hover {
     color: white;
     /* background-color: rgb(72, 67, 219); */
-    background: linear-gradient(to right, rgb(72, 67, 219), rgb(23, 18, 163));
+    background: linear-gradient(to right, rgb(72, 67, 219), rgb(25, 22, 112));
     transform: scale(1.0);
 }
 .online-feb-tiwi a {
@@ -254,7 +254,7 @@
 .online-feb-linked a:hover {
     color: white;
     /* background-color: rgb(72, 67, 219); */
-    background: linear-gradient(to right, rgb(72, 67, 219), rgb(27, 22, 167));
+    background: linear-gradient(to right, rgb(72, 67, 219), rgb(17, 14, 113));
     transform: scale(1.0);
 }
 @media (max-width: 375.98px) {

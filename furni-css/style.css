@@ -669,9 +669,6 @@
         width: 50%;
         display: none;
     }
-    .content1 {
-        padding: 0;
-    }
 }
 /* Clear floats after rows */
 .myrow:after {
@@ -700,7 +697,6 @@
 /* Content */
 .content1 {
     background-color: white;
-    padding: 5px;
 }
 .content1 h5 {
     margin-top: 10px;

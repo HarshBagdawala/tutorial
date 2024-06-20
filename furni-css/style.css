@@ -257,6 +257,19 @@
     background: linear-gradient(to right, rgb(72, 67, 219), rgb(17, 14, 113));
     transform: scale(1.0);
 }
+/* .online-feb-whatsapp a {
+    color: #000;
+    font-size: 21px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.online-feb-whatsapp a:hover {
+    color: white;
+    background: linear-gradient(to right, rgb(30, 192, 30), rgb(8, 141, 6));
+    transform: scale(1.0);
+} */
 @media (max-width: 375.98px) {
     .contect-fast {
         top: 80%;
